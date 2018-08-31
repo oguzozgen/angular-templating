@@ -1,0 +1,26 @@
+<!--
+    index is used like layout for first step it will change. 
+    Check the updates
+-->
+<!--
+    @warning Path should include like with this dots. 
+    Otherwise project is not finding any
+-->
+<!DOCTYPE html>
+<html ng-app="secApp">
+        <head>
+            <link rel="stylesheet" href="layout.css"/>
+            <script data-require="angular.js@1.6.5" data-semver="1.6.5"  src="../../../node_modules/angular/angular.min.js" ></script>
+            <script data-require="angular-route@*" data-semver="1.6.5" src="../../../node_modules/angular-route/angular-route.min.js"></script>
+            <script src="../Main/app.js"></script>
+            <script src="mainController.js"></script>
+            <script src="mainService.js"></script>
+            <script src="../profile/profileController.js"></script>
+            <script src="../customModuls/customModuls.js"></script>
+        </head>
+        <body>
+            <h1> Header </h1>
+            <div ng-view></div>
+        </body>
+
+</html>

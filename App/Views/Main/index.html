@@ -1,0 +1,22 @@
+<!--
+    index is used like layout for first step it will change. 
+    Check the updates
+-->
+
+<!DOCTYPE html>
+<html ng-app="secApp">
+        <head>
+            <link rel="stylesheet" href="layout.css"/>
+            <script data-require="angular.js@*" data-semver="1.6.5" src="/node_modules/angular/angular.min.js" ></script>
+            <script data-require="angular-route@*" data-semver="1.6.5" src="/node_modules/angular-route/angular-route.min.js"></script>
+            <script src="app.js"></script>
+            <script src="mainController.js"></script>
+            <script src="../Profile/profileController.js"></script>
+            <script src="../CustomModuls/customModuls.js"></script>
+        </head>
+        <body>
+            <h1> Header </h1>
+            <div ng-view></div>
+        </body>
+
+</html>
